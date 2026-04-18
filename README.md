@@ -35,7 +35,7 @@ time: YYYY/MM/DD
 ## 运行项目
 
 ```bash
-npm install --no-bin-links
+npm install
 npm run dev
 ```
 
