@@ -12,7 +12,7 @@ export function NavBar() {
     <header className="site-header">
       <div className="site-header__inner">
         <NavLink to="/" className="brand">
-          qsdwindows's Blog
+          Colin130716's Blog
         </NavLink>
         <nav className="nav">
           {links.map((link) => (
