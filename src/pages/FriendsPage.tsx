@@ -1,5 +1,10 @@
 const friends = [
   {
+    name: "Yay+",
+    desc: "Yay+ 文档",
+    url: "https://yayplus.qzz.io/"
+  },
+  {
     name: "ChakerAt's Cyber Nest",
     desc: "查子的个人主页",
     url: "https://cha-at.github.io/",
