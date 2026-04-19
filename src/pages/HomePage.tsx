@@ -4,7 +4,7 @@ import { recentPosts } from '../content'
 import { PostCard } from '../components/PostCard'
 
 export function HomePage() {
-  const [title, setTitle] = useState('Hello, world!')
+  const [title, setTitle] = useState('正在加载一言...')
 
   useEffect(() => {
     const fetchTitle = async () => {
