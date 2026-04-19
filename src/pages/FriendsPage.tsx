@@ -1,7 +1,7 @@
 const friends = [
   {
-    name: "Yay+",
-    desc: "Yay+ 文档",
+    name: "Yay+ Docs",
+    desc: "Yay+文档",
     url: "https://yayplus.qzz.io/"
   },
   {
