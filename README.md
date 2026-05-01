@@ -34,16 +34,35 @@ time: YYYY/MM/DD
 
 ## 运行项目
 
+### 使用 npm
+
 ```bash
 npm install
 npm run dev
 ```
 
+### 使用 yarn
+
+```bash
+yarn install
+yarn run dev
+```
+
 ## 构建项目
+
+### 使用 npm
 
 ```bash
 npm run build
 ```
+
+### 使用 yarn
+
+```bash
+yarn run build
+```
+
+构建成功后，输出文件位于 `dist` 目录，可部署到 Cloudflare Pages。
 
 ## 关键实现
 
