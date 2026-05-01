@@ -6,6 +6,7 @@ import { FriendsPage } from './pages/FriendsPage'
 import { HomePage } from './pages/HomePage'
 import { PostDetailPage } from './pages/PostDetailPage'
 import { PostsPage } from './pages/PostsPage'
+import { SpeedInsights } from '@vercel/speed-insights/react'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
         </Route>
       </Routes>
+      <SpeedInsights />
     </BrowserRouter>
   )
 }
